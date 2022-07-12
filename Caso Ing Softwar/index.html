@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[REEMPLAZAR]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+  </head>
+  <body>
+    <!--Encabezado-->
+    <section>
+        <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+			<div class="container d-flex flex-wrap">
+			  	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+			  	</button>
+			  	<div class="collapse navbar-collapse align-content-center" id="navbarTogglerDemo01">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item"><a href="index.html" class="nav-link link-light px-2">Productos</a></li>
+						<li class="nav-item"><a href="#" class="nav-link link-light px-2">Proveedores</a></li>
+						<li class="nav-item"><a href="#" class="nav-link link-light px-2">Nosotros</a></li>
+						<li class="nav-item"><a href="#" class="nav-link link-light px-2">Sigue Tu Pedido!</a></li>
+						<li class="nav-item"><a href="checkout.html" class="nav-link link-light px-2 active" aria-current="page"">Hacer Pedido</a></li>
+						<li class="nav-item"><a href="#" class="nav-link link-light px-2">Mi Cartera</a></li>
+						<li class="nav-item"><a href="#" class="nav-link link-light px-2">Planes Oficina</a></li>
+						<li class="nav-item"><a href="#" class="nav-link link-light px-2">Preguntas Frecuentes</a></li>
+					</ul>
+					<ul class="nav">
+						<li class="nav-item"><a href="#" class="nav-link link-light px-2"><i class="icon fa-solid fa-user"></i>Inciar Sesión</a></li>
+						<li class="nav-item"><a href="#" class="nav-link link-light px-2"><i class="icon fa-solid fa-right-to-bracket"></i>Registrate</a></li>
+					</ul>
+			  	</div>
+			</div>
+		</nav>
+        <header class="py-3 mb-0 bg-dark sticky-top">
+            <div class="container d-flex flex-wrap bg-dark justify-content-center">
+              <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-white text-decoration-none">
+                <!--AQUI VA EL LOGO DE LA EMPRESA-->
+                <span class="fs-4">Alimentos Santiago</span>
+              </a>
+              <!--AQUI VA EL CARRITO DE COMPRAS FUNCIONAL-->
+              <li class="nav-item"><a href="#" class="nav-link link-light px-1 fs-5"><i class="icon fa-solid fa-cart-shopping"></i>Mi Carrito</a></li>
+            </div>
+        </header>
+        <!--CARROUSEL-->
+        <div id="myCarousel" class="carousel slide m-0" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+      
+              <div class="container">
+                <div class="carousel-caption text-start">
+                  <h1>Example headline.</h1>
+                  <p>Some representative placeholder content for the first slide of the carousel.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active carousel-item-start">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+      
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Another example headline.</h1>
+                  <p>Some representative placeholder content for the second slide of the carousel.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-item-next carousel-item-start">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+      
+              <div class="container">
+                <div class="carousel-caption text-end">
+                  <h1>One more for good measure.</h1>
+                  <p>Some representative placeholder content for the third slide of this carousel.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </section>
+    <!--NAV PRODUCTOS-->
+    <header class="site-header mb-4 py-1">
+      <nav class="container d-flex flex-column flex-md-row justify-content-between">
+        <a class="py-2 d-none d-md-inline-block" href="#">Destacados</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Menú De Hoy</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Ofertas Proveedores</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Crear Menú</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+      </nav>
+    </header>
+    <!--CATALOGO-->
+    <!--ROW 1-->
+    <div id="catalogo" class="row">
+      <div class="card mb-3" style="height: 16rem;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://corpora-fork.s3.amazonaws.com/back_img/PTPP01185-tikka-fungi-balls-arroz-basmati-semillas-lentejas-packaging-frontal-830-1652307033431.jpg" class="img-fluid rounded-start h-100 mt-3" alt="...">
+            <button class="btn-agregar"><i class="icon fa-solid fa-cart-plus"></i>Agregar</button>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="height: 16rem;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://corpora-fork.s3.amazonaws.com/back_img/PTPP01185-tikka-fungi-balls-arroz-basmati-semillas-lentejas-packaging-frontal-830-1652307033431.jpg" class="img-fluid rounded-start h-100 mt-3" alt="...">
+            <button class="btn-agregar"><i class="icon fa-solid fa-cart-plus"></i>Agregar</button>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="card mb-3" style="height: 16rem;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://corpora-fork.s3.amazonaws.com/back_img/PTPP01185-tikka-fungi-balls-arroz-basmati-semillas-lentejas-packaging-frontal-830-1652307033431.jpg" class="img-fluid rounded-start h-100 mt-3" alt="...">
+            <button class="btn-agregar"><i class="icon fa-solid fa-cart-plus"></i>Agregar</button>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--ROW 2-->
+    <div id="catalogo" class="row">
+      <div class="card mb-3" style="height: 16rem;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://corpora-fork.s3.amazonaws.com/back_img/PTPP01185-tikka-fungi-balls-arroz-basmati-semillas-lentejas-packaging-frontal-830-1652307033431.jpg" class="img-fluid rounded-start h-100 mt-3" alt="...">
+            <button class="btn-agregar"><i class="icon fa-solid fa-cart-plus"></i>Agregar</button>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="height: 16rem;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://corpora-fork.s3.amazonaws.com/back_img/PTPP01185-tikka-fungi-balls-arroz-basmati-semillas-lentejas-packaging-frontal-830-1652307033431.jpg" class="img-fluid rounded-start h-100 mt-3" alt="...">
+            <button class="btn-agregar"><i class="icon fa-solid fa-cart-plus"></i>Agregar</button>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="card mb-3" style="height: 16rem;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://corpora-fork.s3.amazonaws.com/back_img/PTPP01185-tikka-fungi-balls-arroz-basmati-semillas-lentejas-packaging-frontal-830-1652307033431.jpg" class="img-fluid rounded-start h-100 mt-3" alt="...">
+            <button class="btn-agregar"><i class="icon fa-solid fa-cart-plus"></i>Agregar</button>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <div class="container">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+              <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+            </div>
+            <ul class="nav-icon col-md-4">
+              <li class="ms-3"><a class="text-muted" href="#"><i class="bi fa-brands fa-twitter"></i></a></li>   
+              <li class="ms-3"><a class="text-muted" href="#"><i class="bi fa-brands fa-instagram"></i></a></li>
+              <li class="ms-3"><a class="text-muted" href="#"><i class="bi fa-brands fa-facebook"></i></a></li>
+            </ul>
+        </div>
+      </footer>
+    </div>
+
+    <!--SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/javascript.js"></script>
+    <script src="https://kit.fontawesome.com/b63beaaf37.js" crossorigin="anonymous"></script>
+  </body>
+</html>

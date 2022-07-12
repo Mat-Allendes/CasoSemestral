@@ -1,0 +1,165 @@
+
+body {
+  padding-bottom: 3rem;
+  background-color: whitesmoke;
+}
+/*CSS HEADER*/
+
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  }
+  
+.text-small {
+  font-size: 85%;
+}
+  
+.dropdown-toggle {
+  outline: 0;
+}
+
+/* ICON HEADER */
+.icon{
+  margin-right: 6px;
+}
+/*CSS CARROUSEL*/ 
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+  
+.carousel-item {
+  height: 32rem;
+}
+  
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}  
+/*CSS CATALOGO 2 */
+#catalogo{
+  margin-left: 4rem !important;
+  margin-top: 1rem !important;
+}
+.card{
+  margin-left: 2rem !important;
+  max-width: 550px;
+}
+.btn-agregar{
+  width: 100%;
+}
+/* CSS FOOTER*/
+.bi{
+  vertical-align: -.125em;
+  fill: currentColor;
+  width: 40px;
+  height: 40px;
+}
+.nav-icon{
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+/*CUENTA REGRESIVA*/
+.con{
+  margin-top: 20px;
+  margin-left: 12px;
+}
+.p{
+  font-size: 17.2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.icalert{
+  margin-right: 10px;
+}
+.fc{
+  margin-left: 9rem;
+}
+.cuentaregre{
+  margin-top: 150px;
+  margin-left: 1rem;
+  border-style: groove;
+  width: 400px;
+  height: 120px;
+}
+.descarga-ahora{
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 20px;
+  background: #286ef2;
+  color: #fff;
+  border-radius: 5px;
+}
+.descarga-ahora:hover{
+  opacity: 0.9;
+}
+.btn-descarga{
+  display: inline-block;
+  padding: 15px 25px;
+  background: #286ef2;
+  color: #fff;
+  border:none;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 5px;
+  outline: 0px;
+  cursor: pointer;
+}
+.btn-descarga:hover{
+  opacity: 0.9;
+}
+.content-descarga i{
+  margin-left: 5px;
+}
+/*Direcciones*/
+.form-check{
+  
+  display: inline;
+}
+.retiro{
+  border-style: groove;
+  width: 500px;
+  margin-top: 100px;
+}
+.form-validator{
+  border-style: groove;
+  width: 500px;
+  height: 200px;
+  margin-top: 150px;
+  margin-right: 100px;
+}
+.tretiro{
+  margin-left: 5rem;
+}
+.pretiro{
+  margin-left: 5rem;  
+}
+.form-label{
+  margin-left: 2rem;
+}
+.btn{
+  margin-left: 10rem;
+}
+/*AGENDAR*/
+.agendar{
+  border-style: groove;
+  margin-top: 100px;
+  margin-right: 15px;
+}

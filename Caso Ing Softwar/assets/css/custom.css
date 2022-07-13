@@ -1,0 +1,40 @@
+ul {
+    list-style: none;
+}
+.submenu {
+    position: relative;
+    top: 10px;
+    padding-left: 80rem;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    color: white;
+    top: 100%;
+    z-index: 1;
+    background-color: #272525;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color:white
+}
+
+#lista-cafe .row {
+    margin-bottom: 20px;
+}
+.agregar-carrito {
+    margin: 10px 0;
+}
